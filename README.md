@@ -51,7 +51,6 @@ Many of the milestones that led to the development of the modern Internet are al
 
 
  # Q4
-
 #### Identify three data structures used in the Ruby programming language and explain the reasons for using each.
 
 - **Arrays**:  An array is an ordered collection of any object. An array uses integers as its index. Uses for arrays include:
@@ -68,4 +67,10 @@ Many of the milestones that led to the development of the modern Internet are al
 		- Convert a multi-dimensional array into a one-dimensional array
 		- Managing instruction sequences
 		- Parsing expressions
-		
+
+#### sources: 
+- [https://www.rubyguides.com/2019/04/ruby-data-structures/](https://www.rubyguides.com/2019/04/ruby-data-structures/)
+- [https://ruby-doc.org/core-2.7.0/Array.html](https://ruby-doc.org/core-2.7.0/Array.html)
+- [https://ruby-doc.org/core-2.5.1/Hash.html](https://ruby-doc.org/core-2.5.1/Hash.html)
+- [https://www.rubyguides.com/2017/03/computer-science-in-ruby-stacks/](https://www.rubyguides.com/2017/03/computer-science-in-ruby-stacks/)
+- [https://medium.com/amiralles/stacks-are-a-special-kind-of-linked-lists-that-allow-us-to-efficiently-store-retrieve-data-in-last-9efab58fd100](https://medium.com/amiralles/stacks-are-a-special-kind-of-linked-lists-that-allow-us-to-efficiently-store-retrieve-data-in-last-9efab58fd100)
