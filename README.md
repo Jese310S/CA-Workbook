@@ -48,3 +48,24 @@ Many of the milestones that led to the development of the modern Internet are al
  - [https://techterms.com/definition/web_browser](https://techterms.com/definition/web_browser)
  -  [https://whatis.techtarget.com/definition/HTTP-Hypertext-Transfer-Protocol](https://whatis.techtarget.com/definition/HTTP-Hypertext-Transfer-Protocol)
  - [https://searchnetworking.techtarget.com/definition/TCP](https://searchnetworking.techtarget.com/definition/TCP)
+
+
+ # Q4
+
+#### Identify three data structures used in the Ruby programming language and explain the reasons for using each.
+
+- **Arrays**:  An array is an ordered collection of any object. An array uses integers as its index. Uses for arrays include:
+		- A base for more advanced data structures
+		- Gathering results from a running loop
+		- Accessing Elements
+		- Searching through a collection of elements
+- **Hash**: A Hash is a dictionary-like collection of unique keys and their values. Also called associative arrays, they are similar to Arrays, but where an Array uses integers as its index, a Hash allows you to use any object type. Hashes enumerate their values in the order that the corresponding keys were inserted.  Uses for Hashes include: 
+		- As a way to have named parameters in functions
+		- Easy way to represent data structures
+		- Isolate data allowing for access to a key or the value
+		- Mapping data, for ex. words to definitions or names to phone numbers
+- **Stacks**: A stack is similar to an array.  It is a data structure which you can use as a collection of objects.  The difference is you keep taking elements from the stack & processing them until the stack is empty. There is no indexing with Stacks.  The data is structured by "Last-in First-out", meaning that when you remove and item from the stack, it will be the last item that was pushed into it.  Uses for Stacks include:
+		- Convert a multi-dimensional array into a one-dimensional array
+		- Managing instruction sequences
+		- Parsing expressions
+		
