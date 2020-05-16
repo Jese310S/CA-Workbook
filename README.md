@@ -84,3 +84,34 @@ Many of the milestones that led to the development of the modern Internet are al
 #### sources: 
 - [https://medium.com/hackernoon/compilers-and-interpreters-3e354a2e41cf](https://medium.com/hackernoon/compilers-and-interpreters-3e354a2e41cf)
 - [https://techdifferences.com/difference-between-compiler-and-interpreter.html](https://techdifferences.com/difference-between-compiler-and-interpreter.html)
+
+# Q6
+####  Identify  two commonly used programming languages and  explain  the benefits and drawbacks of each.
+- **JavaScript**: JavaScript is one of the more popular programming languages in the world.  Every time a website is not just static and contains movement such as - displaying timely content updates, interactive maps, animated 2D/3D graphics and scrolling video jukeboxes- JavaScript was more than likely involved.   JavaScript is used in conjunction with HTML and CSS to create an interactive and feature rich user experience.  
+		**The Pros**: 
+			- JavaScript tends to be very fast because it is often run immediately within the client's browser. So long as it doesn't require outside resources, JavaScript isn't slowed down by calls to a backend server. Also, major browsers all support JIT (just in time) compilation for JavaScript, meaning that there's no need to compile the code before running it.
+			- JavaScript is everywhere on the web, and with the advent of Node.js, is increasingly used on the backend. There are countless resources to learn JavaScript. Both StackOverflow and GitHub show an increasing amount of projects that use JavaScript, and the traction it's gained in recent years is only expected to increase.
+			- JavaScript is client-side, so it reduces the demand on servers overall, and simple applications may not need a server at all.
+			- Developers can extend the functionality of web pages by writing snippets of JavaScript for third party add-ons like Greasemonkey.
+			- Developers can extend the functionality of web pages by writing snippets of JavaScript for third party add-ons like Greasemonkey.
+			**The Cons**:
+			- Since JavaScript code is executed on the client-side, bugs and oversights can sometimes be exploited for malicious purposes. Because of this, some people choose to disable JavaScript entirely.
+			- While server-side scripts always produce the same output, different browsers sometimes interpret JavaScript code differently. These days the differences are minimal, and you shouldn't have to worry about it as long as you test your script in all major browsers.
+
+- **Ruby**:  A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.  Ruby supports multiple programming paradigms including object-oriented and functional programming.
+		**The Pros**:
+				- Ruby offers "readable" code.  Meaning code similar to the language of the user. 
+				- It provides higher abstraction, like object-oriented programming, functional programming, etc.
+				- Ruby has a large and active user base.  This means many developers contribute to RubyGems packages.  
+				- Ruby has many libraries and tools to help you along during your development.
+				**The Cons**:
+				- Ruby programming language is very strict in following some certain algorithms and standards while you are developing. There is not much room to go off script and wild with the features.
+				- Ruby syntax can be very complex for developers to grasp all at once.
+				- Ruby is also slower than statically compiled languages like Java.  This makes Ruby not the best choice for certain niche-types of of applications and certain types of internet scale.
+
+#### sources:
+- [https://www.infoworld.com/article/2870966/ruby-pioneers-come-clean-on-languages-shortcomings.html](https://www.infoworld.com/article/2870966/ruby-pioneers-come-clean-on-languages-shortcomings.html)
+- [https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
+- [https://www.freecodecamp.org/news/the-advantages-and-disadvantages-of-javascript/](https://www.freecodecamp.org/news/the-advantages-and-disadvantages-of-javascript/)
+- [https://en.wikipedia.org/wiki/Ruby_(programming_language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
+- [https://careerkarma.com/blog/what-is-ruby-used-for/](https://careerkarma.com/blog/what-is-ruby-used-for/)
