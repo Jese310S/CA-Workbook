@@ -115,3 +115,74 @@ Many of the milestones that led to the development of the modern Internet are al
 - [https://www.freecodecamp.org/news/the-advantages-and-disadvantages-of-javascript/](https://www.freecodecamp.org/news/the-advantages-and-disadvantages-of-javascript/)
 - [https://en.wikipedia.org/wiki/Ruby_(programming_language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
 - [https://careerkarma.com/blog/what-is-ruby-used-for/](https://careerkarma.com/blog/what-is-ruby-used-for/)
+
+
+# Q7
+#### Identify two ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
+
+# Q8
+#### Explain control flow, using an example from the Ruby programming language.
+
+# Q9
+#### Explain type coercion
+
+# Q10
+#### Describe the data types recognised by the Ruby programming language.
+
+# Q11
+#### “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
+
+# Q12
+#### Identify and explain the error in the following code that is preventing correct execution of the program.
+
+```
+celsius = gets
+fahrenheit = (celsius * 9 / 5) + 32
+print "The result is: "
+print fahrenheit
+puts "."
+```
+
+
+# Q13
+#### The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
+
+```
+arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+i = 0
+while (i < arr.size - 1 and arr[i] < arr[i + 1])
+  i = i + 1 end
+puts i
+arr[i] = arr[i + 1]
+arr[i + 1] = arr[i]
+```
+
+
+# Q14
+####   Demonstrate your algorithmic thinking through completing the following two tasks, in order:  
+i. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations  
+ii. Write pseudocode for the process outlined in your flowchart
+
+# Q15
+#### Write pseudocode OR Ruby code for the following problem:  
+  
+_You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”._
+
+
+
+# Q16
+#### An allergy test produces a single numeric score which contains the information about all the allergies the person has (that they were tested for). The list of items (and their value) that were tested are:  
+  
+- eggs (1)  
+- peanuts (2)  
+- shellfish (4)  
+- strawberries (8)  
+- tomatoes (16)  
+- chocolate (32)  
+- pollen (64)  
+- cats (128)  
+So if Tom is allergic to peanuts and chocolate, he gets a score of 34.  
+  
+Write a program that, given a person’s score can tell them:  
+a. whether or not they’re allergic to a given item  
+b. the full list of allergies.
