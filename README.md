@@ -122,6 +122,30 @@ Many of the milestones that led to the development of the modern Internet are al
 
 # Q8
 #### Explain control flow, using an example from the Ruby programming language.
+- In computer science control flow is the order in which individual statements , instructions or function calls of an imperative program are executed or evaluated.  The related statements are set out in a block of code and work forwards evaluating conditions to determine the next steps/outcomes. As an example, the following Ruby code aims to determine a person's favourite food and then returns a response:
+```
+   favourite_food = gets.chomp
+
+    puts "What is your favourite food dish?"
+
+    case favourite_food
+    when "pizza"
+        puts "Great choice, Pizza is the best!"
+    when "chocolate"
+        puts "Me too! Chocolate is my happy food."
+    when "croissant"
+        puts "Croissant and Cafe au lait please!"
+    when "salmon"
+        puts "Can never go wrong with Salmon."
+    end 
+```
+
+In the above example, the case statement outlines the evaluation.  The user types their response into the console.  Then the ```when``` statements evaluates iterates through the outlined evaluation.  When the input matches the stated case the associated string is then returned to the console.
+
+#### sources:
+- [https://en.wikipedia.org/wiki/Control_flow](https://en.wikipedia.org/wiki/Control_flow)
+- [https://www.rubyguides.com/2015/10/ruby-case/](https://www.rubyguides.com/2015/10/ruby-case/)
+
 
 # Q9
 #### Explain type coercion
