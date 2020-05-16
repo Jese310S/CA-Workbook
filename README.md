@@ -74,3 +74,13 @@ Many of the milestones that led to the development of the modern Internet are al
 - [https://ruby-doc.org/core-2.5.1/Hash.html](https://ruby-doc.org/core-2.5.1/Hash.html)
 - [https://www.rubyguides.com/2017/03/computer-science-in-ruby-stacks/](https://www.rubyguides.com/2017/03/computer-science-in-ruby-stacks/)
 - [https://medium.com/amiralles/stacks-are-a-special-kind-of-linked-lists-that-allow-us-to-efficiently-store-retrieve-data-in-last-9efab58fd100](https://medium.com/amiralles/stacks-are-a-special-kind-of-linked-lists-that-allow-us-to-efficiently-store-retrieve-data-in-last-9efab58fd100)
+
+# Q5
+#### Describe  the features of interpreters and compilers and how they are different.
+
+  A compiler is a converter that translates high-level source code into low-level machine code for the computer to read.  A compiler can be divided into two parts.  The first part is called the front end, the front end scans the submitted source code for syntax errors, checks the type of each declared variable and ensures that each variable is declared before use.  If there are any errors it will provide an error message to the user.  If there is no error detected, another data structure, an an _intermediate representation_ of the code, is built from the source code and passed as input to the second part called the back end.  The back end uses the intermediate representation and a symbol table, containing the symbols found in the source code, to generate low level code. 
+  Interpreters and compilers are very similar in structure. The main difference is that an interpreter directly executes the instructions in the source programming language while a compiler translates those instructions into efficient machine code.  An interpreter will typically generate an efficient intermediate representation and immediately evaluate it. Interpreted languages do show their value in development as they are much easier to pick errors from and make changes that can be checked over, piece by piece, as the program is in operation. This does make the interpreter slightly slower than the compiler, but the opportunity for error handling and active management of issues is enhanced.
+
+#### sources: 
+- [https://medium.com/hackernoon/compilers-and-interpreters-3e354a2e41cf](https://medium.com/hackernoon/compilers-and-interpreters-3e354a2e41cf)
+- [https://techdifferences.com/difference-between-compiler-and-interpreter.html](https://techdifferences.com/difference-between-compiler-and-interpreter.html)
