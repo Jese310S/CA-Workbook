@@ -149,6 +149,11 @@ In the above example, the case statement outlines the evaluation.  The user type
 
 # Q9
 #### Explain type coercion
+- Type coercion is the process of changing a data type into another valid data type for use in programming. For example: in Ruby, if I was to receive a string input of `"9"` but I needed to use this input in a mathematical calculation in a later variable or operation, I could use a method like `.to_i` appended to the `gets` method that receives it to change it to the Integer `9`. Another example of type coercion in Ruby is using `.to_f` to convert the previously mentioned Integer into a Float (decimal number) for use in financial operations, for instance.
+
+#### sources:
+- [https://en.wikipedia.org/wiki/Type_conversion](https://en.wikipedia.org/wiki/Type_conversion)
+- [https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
 
 # Q10
 #### Describe the data types recognised by the Ruby programming language.
