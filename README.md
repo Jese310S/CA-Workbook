@@ -157,6 +157,24 @@ In the above example, the case statement outlines the evaluation.  The user type
 
 # Q10
 #### Describe the data types recognised by the Ruby programming language.
+**Ruby Data Types**:
+-   _Strings_: A `String` object holds and manipulates an arbitrary sequence of bytes, typically representing characters.  A string of characters is stored in quotation marks.
+   eg.
+   ``` name = "Jessica"```
+-   _Integers_: Holds Integer values.  These are whole numbers and can still be positive or negative.
+   eg. 1, 100, -32.
+-   _Floats_: these are decimal numbers. They are not contained in any symbols. They can also be positive or negative.
+eg. 1.23, 102.4, -32.69
+-   _Booleans_:  are  true or false values. They are not contained in any symbols.
+  eg.
+  ```is_a_human = true```   ```is_a_unicorn = false```
+
+#### sources:
+- [https://ruby-doc.org/core-2.6/String.html](https://ruby-doc.org/core-2.6/String.html)
+- [https://ruby-doc.org/core-2.5.0/Integer.html](https://ruby-doc.org/core-2.5.0/Integer.html)
+- [https://ruby-doc.org/core-2.5.0/Float.html](https://ruby-doc.org/core-2.5.0/Float.html)
+- [https://www.rubyguides.com/2019/02/ruby-booleans/](https://www.rubyguides.com/2019/02/ruby-booleans/)
+
 
 # Q11
 #### “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
