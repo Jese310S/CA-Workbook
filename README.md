@@ -172,6 +172,10 @@ print fahrenheit
 puts "."
 ```
 
+The code above does not convert the user input from a string to an integer.  The code as a result thinks celsius is a string and returns it 9 times.  To fix this you would convert the string to an integer when you get the user input with the ruby .to_i.
+
+```celsius = gets.to_i```
+
 
 # Q13
 #### The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
@@ -184,6 +188,16 @@ while (i < arr.size - 1 and arr[i] < arr[i + 1])
 puts i
 arr[i] = arr[i + 1]
 arr[i + 1] = arr[i]
+```
+#### Solution:
+```arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+i = 0
+while (i < arr.size - 1 and arr[i] < arr[i + 1])
+  i = i + 1 end
+x = arr[i]
+arr[i] = arr[i + 1]
+arr[i + 1] = x
+puts arr
 ```
 
 
