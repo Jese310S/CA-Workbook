@@ -229,6 +229,33 @@ puts arr
 i. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations  
 ii. Write pseudocode for the process outlined in your flowchart
 
+```mermaid
+graph LR
+A[ Define Range 1..100] --> B(( Iterate through range))
+B --> C(Round Rect)
+B --> C{is a Prime?}
+C --YES--> D[Is a prime]
+C --NO--> E[ Is not prime]
+E --> F[store and evaluate next]
+D --> G[evaluate next number]
+F --> C
+G --> C
+```
+
+
+```
+range = [1..100]
+prime = []
+until range_value == 100 {
+  check_prime{
+    if range_value is prime ( value/1 or value/vlaue = 0 )
+	   store in prime array
+    else
+       evaluate next range_value
+    end
+   }
+}
+```
 # Q15
 #### Write pseudocode OR Ruby code for the following problem:  
   
