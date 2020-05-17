@@ -178,6 +178,11 @@ eg. 1.23, 102.4, -32.69
 
 # Q11
 #### “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
+If I was building an app for the restaurant I would have classes such as a customer class, a menu class, payment class and a server class.
+	- **Customer**: This class would take the information of the customer and utilise it in the app.
+	- **Menu**: This class will provide a structure for the user to choose from and make sure the order is sent.
+	- **Payment**:   This class will deal with the payment interaction between the user and the restaurant.
+	- **Server**: The server class will take the place of the sever and handle the interaction between the user and their choices from the menu.
 
 # Q12
 #### Identify and explain the error in the following code that is preventing correct execution of the program.
