@@ -279,3 +279,28 @@ So if Tom is allergic to peanuts and chocolate, he gets a score of 34.
 Write a program that, given a person’s score can tell them:  
 a. whether or not they’re allergic to a given item  
 b. the full list of allergies.
+
+```
+allergies = {
+    "eggs" => "1",
+    "peanuts" => "2",
+    "shellfish" => "4",
+    "strawberries" => "8",
+    "tomatoes" => "16",
+    "chocolate" => "32",
+    "pollen" => "64",
+    "cats" => "128"
+}
+//will them whether or not they are allergic//
+def allergy_score(allergy)
+allergy_score = []
+  allergies.each do | item, score |
+    if allergy == item
+      allergy_score.push(score)
+      end
+  end
+  allergy_score.each.sum
+end
+
+//prints list of allergies//
+print allergies.keys
