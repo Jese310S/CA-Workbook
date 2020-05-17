@@ -88,23 +88,31 @@ Many of the milestones that led to the development of the modern Internet are al
 # Q6
 ####  Identify  two commonly used programming languages and  explain  the benefits and drawbacks of each.
 - **JavaScript**: JavaScript is one of the more popular programming languages in the world.  Every time a website is not just static and contains movement such as - displaying timely content updates, interactive maps, animated 2D/3D graphics and scrolling video jukeboxes- JavaScript was more than likely involved.   JavaScript is used in conjunction with HTML and CSS to create an interactive and feature rich user experience.  
+
 		**The Pros**: 
+
 			- JavaScript tends to be very fast because it is often run immediately within the client's browser. So long as it doesn't require outside resources, JavaScript isn't slowed down by calls to a backend server. Also, major browsers all support JIT (just in time) compilation for JavaScript, meaning that there's no need to compile the code before running it.
 			- JavaScript is everywhere on the web, and with the advent of Node.js, is increasingly used on the backend. There are countless resources to learn JavaScript. Both StackOverflow and GitHub show an increasing amount of projects that use JavaScript, and the traction it's gained in recent years is only expected to increase.
 			- JavaScript is client-side, so it reduces the demand on servers overall, and simple applications may not need a server at all.
 			- Developers can extend the functionality of web pages by writing snippets of JavaScript for third party add-ons like Greasemonkey.
 			- Developers can extend the functionality of web pages by writing snippets of JavaScript for third party add-ons like Greasemonkey.
+
 			**The Cons**:
+
 			- Since JavaScript code is executed on the client-side, bugs and oversights can sometimes be exploited for malicious purposes. Because of this, some people choose to disable JavaScript entirely.
 			- While server-side scripts always produce the same output, different browsers sometimes interpret JavaScript code differently. These days the differences are minimal, and you shouldn't have to worry about it as long as you test your script in all major browsers.
 
 - **Ruby**:  A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.  Ruby supports multiple programming paradigms including object-oriented and functional programming.
+
 		**The Pros**:
+
 				- Ruby offers "readable" code.  Meaning code similar to the language of the user. 
 				- It provides higher abstraction, like object-oriented programming, functional programming, etc.
 				- Ruby has a large and active user base.  This means many developers contribute to RubyGems packages.  
 				- Ruby has many libraries and tools to help you along during your development.
+
 				**The Cons**:
+
 				- Ruby programming language is very strict in following some certain algorithms and standards while you are developing. There is not much room to go off script and wild with the features.
 				- Ruby syntax can be very complex for developers to grasp all at once.
 				- Ruby is also slower than statically compiled languages like Java.  This makes Ruby not the best choice for certain niche-types of of applications and certain types of internet scale.
@@ -179,6 +187,7 @@ eg. 1.23, 102.4, -32.69
 # Q11
 #### “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
 If I was building an app for the restaurant I would have classes such as a customer class, a menu class, payment class and a server class.
+
 	- **Customer**: This class would take the information of the customer and utilise it in the app.
 	- **Menu**: This class will provide a structure for the user to choose from and make sure the order is sent.
 	- **Payment**:   This class will deal with the payment interaction between the user and the restaurant.
@@ -260,6 +269,22 @@ until range_value == 100 {
 #### Write pseudocode OR Ruby code for the following problem:  
   
 _You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”._
+
+```
+raining = true
+temperature = 0
+
+if raining == true && temperature < 15
+    puts "It’s wet and cold"
+elsif raining == false && temperature < 15
+    puts "It's not raining but cold"
+elsif raining == false && temperature >= 15
+    puts "It's warm but not raining"
+else
+    puts "It's warm and raining"
+end
+```
+
 
 
 
