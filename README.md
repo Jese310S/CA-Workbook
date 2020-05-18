@@ -238,18 +238,8 @@ puts arr
 i. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations  
 ii. Write pseudocode for the process outlined in your flowchart
 
-```mermaid
-graph LR
-A[ Define Range 1..100] --> B(( Iterate through range))
-B --> C(Round Rect)
-B --> C{is a Prime?}
-C --YES--> D[Is a prime]
-C --NO--> E[ Is not prime]
-E --> F[store and evaluate next]
-D --> G[evaluate next number]
-F --> C
-G --> C
-```
+
+![Flowchart](/flow.png)
 
 
 ```
