@@ -54,19 +54,19 @@ Many of the milestones that led to the development of the modern Internet are al
 #### Identify three data structures used in the Ruby programming language and explain the reasons for using each.
 
 - **Arrays**:  An array is an ordered collection of any object. An array uses integers as its index. Uses for arrays include:
-		- A base for more advanced data structures
-		- Gathering results from a running loop
-		- Accessing Elements
-		- Searching through a collection of elements
+	- A base for more advanced data structures
+	- Gathering results from a running loop
+	- Accessing Elements
+	- Searching through a collection of elements
 - **Hash**: A Hash is a dictionary-like collection of unique keys and their values. Also called associative arrays, they are similar to Arrays, but where an Array uses integers as its index, a Hash allows you to use any object type. Hashes enumerate their values in the order that the corresponding keys were inserted.  Uses for Hashes include: 
-		- As a way to have named parameters in functions
-		- Easy way to represent data structures
-		- Isolate data allowing for access to a key or the value
-		- Mapping data, for ex. words to definitions or names to phone numbers
+	- As a way to have named parameters in functions
+	- Easy way to represent data structures
+	- Isolate data allowing for access to a key or the value
+	- Mapping data, for ex. words to definitions or names to phone numbers
 - **Stacks**: A stack is similar to an array.  It is a data structure which you can use as a collection of objects.  The difference is you keep taking elements from the stack & processing them until the stack is empty. There is no indexing with Stacks.  The data is structured by "Last-in First-out", meaning that when you remove and item from the stack, it will be the last item that was pushed into it.  Uses for Stacks include:
-		- Convert a multi-dimensional array into a one-dimensional array
-		- Managing instruction sequences
-		- Parsing expressions
+	- Convert a multi-dimensional array into a one-dimensional array
+	- Managing instruction sequences
+	- Parsing expressions
 
 #### sources: 
 - [https://www.rubyguides.com/2019/04/ruby-data-structures/](https://www.rubyguides.com/2019/04/ruby-data-structures/)
@@ -89,33 +89,33 @@ Many of the milestones that led to the development of the modern Internet are al
 ####  Identify  two commonly used programming languages and  explain  the benefits and drawbacks of each.
 - **JavaScript**: JavaScript is one of the more popular programming languages in the world.  Every time a website is not just static and contains movement such as - displaying timely content updates, interactive maps, animated 2D/3D graphics and scrolling video jukeboxes- JavaScript was more than likely involved.   JavaScript is used in conjunction with HTML and CSS to create an interactive and feature rich user experience.  
 
-		**The Pros**: 
+	**The Pros**: 
 
-			- JavaScript tends to be very fast because it is often run immediately within the client's browser. So long as it doesn't require outside resources, JavaScript isn't slowed down by calls to a backend server. Also, major browsers all support JIT (just in time) compilation for JavaScript, meaning that there's no need to compile the code before running it.
-			- JavaScript is everywhere on the web, and with the advent of Node.js, is increasingly used on the backend. There are countless resources to learn JavaScript. Both StackOverflow and GitHub show an increasing amount of projects that use JavaScript, and the traction it's gained in recent years is only expected to increase.
-			- JavaScript is client-side, so it reduces the demand on servers overall, and simple applications may not need a server at all.
-			- Developers can extend the functionality of web pages by writing snippets of JavaScript for third party add-ons like Greasemonkey.
-			- Developers can extend the functionality of web pages by writing snippets of JavaScript for third party add-ons like Greasemonkey.
+	- JavaScript tends to be very fast because it is often run immediately within the client's browser. So long as it doesn't require outside resources, JavaScript isn't slowed down by calls to a backend server. Also, major browsers all support JIT (just in time) compilation for JavaScript, meaning that there's no need to compile the code before running it.
+	- JavaScript is everywhere on the web, and with the advent of Node.js, is increasingly used on the backend. There are countless resources to learn JavaScript. Both StackOverflow and GitHub show an increasing amount of projects that use JavaScript, and the traction it's gained in recent years is only expected to increase.
+	- JavaScript is client-side, so it reduces the demand on servers overall, and simple applications may not need a server at all.
+	- Developers can extend the functionality of web pages by writing snippets of JavaScript for third party add-ons like Greasemonkey.
+	- Developers can extend the functionality of web pages by writing snippets of JavaScript for third party add-ons like Greasemonkey.
 
-			**The Cons**:
+	**The Cons**:
 
-			- Since JavaScript code is executed on the client-side, bugs and oversights can sometimes be exploited for malicious purposes. Because of this, some people choose to disable JavaScript entirely.
-			- While server-side scripts always produce the same output, different browsers sometimes interpret JavaScript code differently. These days the differences are minimal, and you shouldn't have to worry about it as long as you test your script in all major browsers.
+	- Since JavaScript code is executed on the client-side, bugs and oversights can sometimes be exploited for malicious purposes. Because of this, some people choose to disable JavaScript entirely.
+	- While server-side scripts always produce the same output, different browsers sometimes interpret JavaScript code differently. These days the differences are minimal, and you shouldn't have to worry about it as long as you test your script in all major browsers.
 
 - **Ruby**:  A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.  Ruby supports multiple programming paradigms including object-oriented and functional programming.
 
-		**The Pros**:
+	**The Pros**:
 
-				- Ruby offers "readable" code.  Meaning code similar to the language of the user. 
-				- It provides higher abstraction, like object-oriented programming, functional programming, etc.
-				- Ruby has a large and active user base.  This means many developers contribute to RubyGems packages.  
-				- Ruby has many libraries and tools to help you along during your development.
+	- Ruby offers "readable" code.  Meaning code similar to the language of the user. 
+	- It provides higher abstraction, like object-oriented programming, functional programming, etc.
+	- Ruby has a large and active user base.  This means many developers contribute to RubyGems packages.  
+	- Ruby has many libraries and tools to help you along during your development.
 
-				**The Cons**:
+	**The Cons**:
 
-				- Ruby programming language is very strict in following some certain algorithms and standards while you are developing. There is not much room to go off script and wild with the features.
-				- Ruby syntax can be very complex for developers to grasp all at once.
-				- Ruby is also slower than statically compiled languages like Java.  This makes Ruby not the best choice for certain niche-types of of applications and certain types of internet scale.
+    - Ruby programming language is very strict in following some certain algorithms and standards while you are developing. There is not much room to go off script and wild with the features.
+	- Ruby syntax can be very complex for developers to grasp all at once.
+	- Ruby is also slower than statically compiled languages like Java.  This makes Ruby not the best choice for certain niche-types of of applications and certain types of internet scale.
 
 #### sources:
 - [https://www.infoworld.com/article/2870966/ruby-pioneers-come-clean-on-languages-shortcomings.html](https://www.infoworld.com/article/2870966/ruby-pioneers-come-clean-on-languages-shortcomings.html)
