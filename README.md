@@ -127,6 +127,55 @@ Many of the milestones that led to the development of the modern Internet are al
 
 # Q7
 #### Identify two ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
+Scenario 1: Access to user’s personal information
+
+An IT professional is ethically responsible to ensure that a user’s information is held and transmitted in a secured way.  This is in order to limit the possible access of the data by unauthorised third parties. This means, always keeping data security in the front of your mind when designing a website or application.   By doing this the IT professional ensures that the right controls are in place from the beginning. These controls include things like encryption at rest and in transit, RBAC and access logging.  
+
+Due to the criticality of this issue, there are multiple standards and laws in place for handling of personal information as well as multiple classifications. Generally, data in this area is broken into three types of information:
+- Personally Identifiable Information [PII]
+- Personal Financial Information [PFI]
+- Personal Health Information [PHI]
+
+The way the law handles each of these types are specific to industries and their practices.  The handling of them are very similar. There are multiple institutions which provide advice and standards to help in these spaces with the main one being the National Institute of Standards and Technology, NIST.  Additionally, to provided standards, there are regulators whom manage specific market segments such as APRA in the financial market and AHPRA for the medical market. Each of these regulators have their own standards which are regularly published such as APRA’s “Prudential Practice Guide - CPG235 - Managing Data Risk” [[https://www.apra.gov.au/sites/default/files/Prudential-Practice-Guide-CPG-235-Managing-Data-Risk_1.pdf](https://www.apra.gov.au/sites/default/files/Prudential-Practice-Guide-CPG-235-Managing-Data-Risk_1.pdf)].
+  
+
+Scenario 2: Freedom of thought, conscience, speech and the media
+
+IT professionals have a difficult job in this area as freedom of thought, conscience, speech and media is a prickly, highly politicised, topic during these times. However, In my view it is the responsibility of IT professionals to do two things:
+
+ - Ensure that freedom of thought and speech is upheld
+ - Ensure speech is accurate, fair and not infringing on others.
+
+The assumed conflict between the two responsibilities above is what makes this topic difficult but if you also assume a responsibility on the part of the users of any platform it becomes clearer. Users have the responsibility to inform themselves, show respect for each other and not to knowingly disseminate false narratives. It is then the IT professionals responsibility to allow users to have the freedom of thought to share their own narrative (given that it is not false) and when something is found to go against the second condition work to eliminate it immediately.
+This ethos is enshrined in the cultures and even encapsulated in the constitutions of many countries including in international law through United Nations Universal Declaration of Human Rights in Article 19. It states that:
+
+•Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers. [[https://en.wikipedia.org/wiki/Freedom_of_speech_by_country](https://en.wikipedia.org/wiki/Freedom_of_speech_by_country)]
+
+Case Study::
+
+Access to user’s personal information:
+There have been multiple notable data breaches in recent years and most are very well known across the industry. Raising names like First American Financial Corporation with their 885 Million customer records shared or Facebook with their 540 million records shared both due to bad security practices [[https://www.cnbc.com/2019/07/30/five-of-the-biggest-data-breaches-ever.html](https://www.cnbc.com/2019/07/30/five-of-the-biggest-data-breaches-ever.html)], it is key to keep in mind when designing systems which will hold this type of critical, protected data. Additionally to the two examples above, there are dozens which have greatly impacted the Australian public [[https://www.webberinsurance.com.au/data-breaches-list](https://www.webberinsurance.com.au/data-breaches-list)] from Service NSW to the WA Police Force.
+
+ 
+Theoretically, an organisation can be breached multiple ways but a scenario has been laid out below.
+
+  Company ABC is an Australian recruitment company which manages the recruiting funnel for enterprise clients. This company has a process where potential applications are uploaded in multiple formats to their website for a specific job and the application sitting behind the website opens the file, catalogs the content in metadata and packages the resume into a PDF format for clients.
+
+One day, a malicious actor who wants to access the data which the company holds uploads a document with an embedded application. When the document is open the application infects the host machine and gains root access, allowing the malicious actor to access the internal network including file servers, databases and critical infrastructure. The actor scans through the network until they discover a database where all resumes are held after processing. This actor then exfiltrates the entire database [gigabytes worth of data] successfully compromising all the applicants who have uploaded resumes.
+
+An ethical professional would have to take multiple actions in the case of the breach above. The IT professional has responsibilities to their company, users and the appropriate regulatory agencies. In the case above, the ultimate authority would be the Federal Government as it doesn’t fall under any other agencies. The actions below would have to be taken by the professional:
+
+1 - Identify the breach, notifying internal security teams (if not already involved) to investigate what happened. This will trigger a Major Incident in most organisations.
+
+2 - Immediately close the issue, applying a tactical solution so that no additional data is lost and access has been revoked for the malicious actor
+
+2 - When the size of the breach is known notify the OAIC as appropriate based on their guidelines [[https://www.oaic.gov.au/privacy/data-breaches/](https://www.oaic.gov.au/privacy/data-breaches/)]
+
+3 - Perform a root cause analysis to identify what went wrong and how to close the gap permanently
+
+4 - Apply a strategic fix which will prevent future losses. This could take the form of a simple application update, a full architecture change or better downstream controls.
+
+In the case of the above, my view is that the largest gaps in security are access to the database not being controlled properly once the actor has internal access. The application running embedded applications, such as MS Macros, the firewall / data egress rules being too open to allow a multi-gigabyte file exiting the environment and lack of strong encryption which would have made the data set unusable. With these controls in place, this type of attack and loss of data could have been avoided.
 
 # Q8
 #### Explain control flow, using an example from the Ruby programming language.
