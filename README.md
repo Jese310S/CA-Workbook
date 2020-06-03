@@ -2,11 +2,11 @@
 
 # Q1
 #### Describe at least five key events in the development of the internet:
-- Throughout the 1980's the internet transformed into a worldwide network.  This was possible because of a computer scientist named Vinton Cerf, who's work developed a way for all computers on all of the worlds mini networks to communicate with each other.  This was called "Transmission Control Protocol".  Later an additional protocol was added, "internet protocol", known today as TCP/IP
-- 1988: The Morris worm or Internet worm of November 2, 1988, was one of the first computer worms distributed via the Internet, and the first to gain significant mainstream media attention. It also resulted in the first felony conviction in the US under the 1986 Computer Fraud and Abuse Act. It was written by a graduate student at Cornell University, Robert Tappan Morris.
-- 1990: Dial-up Internet access is a form of internet access that uses the facilities of the public switched telephone network (PSTN) to establish a connection to an Internet service provider (ISP) by dialing a telephone number on a conventional telephone line. Dial-up connections use modems to decode audio signals into data to send to a router or computer, and to encode signals from the latter two devices to send to another modem.
-- 1998: Google, launched by Larry Page and Sergey Brin, went live in 1998.  Revolutionising the way in which people find information online. Larry Page and Sergey Brin, students at Stanford University in California, developed a search algorithm at first known as "BackRub" in 1996, with the help of Scott Hassan and Alan Steremberg.
-- 2000: 2000 was the year of the dotcom collapse, resulting in huge losses for legions of investors. Hundreds of companies closed, some of which had never turned a profit for their investors. The NASDAQ, which listed a large number of tech companies affected by the bubble, peaked at over 5,000, then lost 10% of its value in a single day, and finally hit bottom in October of 2002.
+-In the 1980's the internet became a worldwide network.  One of the computer scientists who made a large contribution to this peoject was Vinton Cerf.  Vinton Cerf worked at DARPA from 1976-1982.  He helped develop TCP/IP (Transmission Control Protocol/ Internet Protocol) which allows computers on all the worlds network to communicate with each other.
+- In 1988 the first computer worm, The morris worm was distributed on the internet.  I was one of the first computer worms distributed on the internet.  Within 15 hours two thousand computers were infected with the worm.  The worm's damage cost was 100,000 - 10,000,000 U.S dollars.  Robert Tappen Moris, the writer of the worm, was the first felony conviction to happen in the US under the 1986 Computer Fraud and Abuse Act.
+-  In 1992 dial up internet was first offered commercially. Pipex in the United Kingdom and Sprint in the United States were the first providers. An early form of dial up internet was called USENET.  USENET was developed by two graduates of Duke university.  Thier Unix based system used a dial up connection to transer data through telephone modems.  Once broadband internet was introduced in the late 1990's dial up internet became less popular. 
+-  In 1998 Google officially launched.  Google became the most used web search engine.  Google was developed by two stanford students, Larry Page and Sergey Brin.  They expanded google from an initial project called "BackRub".  BackRub focused on solving the problem of finding which web pages link to a given page.  The idea was to create an alogorithm that would rank the output for a given URL.  This would be a more efficient way to search the internet.
+-  In the late 1990s there was a growth in the adoption of the internet.  This along with more internet company based stock being purchased created the Dotcom Bubble.  At its peak in 2000 the NASDAQ rose by 400%.  In 2002 the NASDAQ fell by 78%, and many companies shut down and failed as a result.  By the end of the fall companies had lost Five Trillion dollars in market capitalization.
 
 ### sources:
 -  [https://www.history.com/topics/inventions/invention-of-the-internet](https://www.history.com/topics/inventions/invention-of-the-internet)
@@ -17,17 +17,13 @@
 
 # Q2
 #### Define the features of the following technologies that are essential in terms of the development of the internet:
-- **Packets**: A network packet is a formatted unit of data carried by a packet-switched network. A packet consists of control information and user data, which is also known as the payload. Control information provides data for delivering the payload. 
-Packet switching is a rapid store and forward networking design that divides messages up into arbitrary packets, with routing decisions made per-packet. It provides better bandwidth utilization and response times than the traditional circuit-switching technology used for telephony, particularly on resource-limited interconnection links.
-At a conference, Roger Scantlebury presented  Donald Davies work on packet switching for data communications and mentioned the work of  Paul Baran  at  RAND. Roberts incorporated the packet switching concepts into the ARPANET design and upgraded the proposed communications speed from 2.4 kbps to 50 kbps.
-ARPA awarded the contract to build the network and the first ARPANET link was established between the  University of California, Los Angeles and the Stanford Research Institute on October 29, 1969
-- **IP addresses (IPv4 and IPv6)**: An Internet Protocol address is also known as IP address. It is a numerical label which assigned to each device connected to a computer network which uses the IP for communication.
-IPv4 was the first version of IP. It was deployed for production in the ARPANET in 1983. Today it is most widely used IP version. It is used to identify devices on a network using an addressing system.  It is considered the primary Internet Protocol and carries 94% of Internet traffic.
-IPv6 is the most recent protocol.  This new IP address version is being deployed to fulfil the need for more Internet addresses. It was aimed to resolve issues which are associated with IPv4. 
-- **Routers and Routing**  : A router is the traffic controller for data coming from and traveling via the internet. The router is generally connected to two or more points and distributes the packets of information from one source to the other (routing). The most common routing scenarios are experienced in the home and office by general commercial and consumer router products to allow for data exchange with the web and also internal networking.
-Larry Roberts’ proposal that all host computers would connect to one another directly was not endorsed. Wesley Clark suggested to Roberts that the network be managed by identical small computers, each attached to a host computer. Accepting the idea, Roberts named the small computers dedicated to network administration, Interface Message Processors, which later evolved into today’s routers.
-- **Domains and DNS** :  The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to  IP addresses so browsers can load Internet resources.  Each device connected to the Internet has a unique IP address which other machines use to find the device.
-Many of the milestones that led to the development of the modern Internet are already familiar to many of us, the invention of DNS the Domain Name System is a part of those milestones.  
+- **Packets**: A network packet concept is very similar to a postal letter.  The data is carried by a network.  In this data the header can be compared to an envelope of a letter. The data that is carried, the Payload is similar to the contents of the letter.  The footer would be like the signature of the letter you are sending.  Packets are the express mail of the internet, they have better bandwith utilisation and respond faster than the traditional cicuit-switching techonolgy.  In October 29, 1969 the first ARPANET link was established between the University of CAlifornia and the Stanford Research Institute.  The ARPANET design included packet switching.
+
+- **IP addresses (IPv4 and IPv6)**: An Internet Protocol address is also known as IP address.  An IP address can be thought of as a unique identifier for each computer.  There are two standard for IP addresses, IPv4 and IPv6.  IPv4 is used by all computers with an IP address.  The internet before IP addresses was not as alrge and commercial as it is today.  Many networks were private and closed off from other networks.  Having only 32 bits to identify a unique internet address was not going to be enough and would cause people to panic.  With IPv4 there 232 possible combinations,  this equates to 4.3 billion unique internet addresses.  IPv6 was seployed and is used in some computers today.  It was deployed to meet the need for more internet addresses.
+
+- **Routers and Routing**  :  A router forwards data packets between computer networks.  A router is similar to a traffic controller.  The router directs the data, such as email and web pages, in the form of data packets.  When a data packet is recieved, the router reads the network address in the packets header and then finds the packets final destination.  Most common routing scenarios are from home and offices.  This would be by commercial and consumer routers products.  The most common example would be between a users router and their internet providers.  The home router connects to the internet through an ISP (internet service provider).
+
+- **Domains and DNS** :  A Domain Name System , DNS, is very similar to a phonebook or contact list.  People enter the domain name, such as nytime.com, and are then taken to the website.  The Domain names are reprsenting the computers IP addresses.  IP addresses are difficult to remember,  DNS solves the problem for people of remembering unique IP addresses.  Instead of having to remember a group of numbers the remember the domain name.  The DNS translates these names into the associated IP address.
 
 ### sources: 
 - [https://en.wikipedia.org/wiki/Network_packet](https://en.wikipedia.org/wiki/Network_packet)
@@ -39,9 +35,10 @@ Many of the milestones that led to the development of the modern Internet are al
 
 # Q3
 #### Define the features of the following technologies that are essential in terms of the development of the internet:
-- **TCP**: TCP stands for Transmission Control Protocol.  TCP is a connection-oriented protocol. This means a connection is established and maintained until the application programs at each end have finished exchanging messages. It determines how to break application data into packets, which networks can deliver and send to.  It then accepts packets from the network layer and manages flow control. TCP works with the Internet Protocol, which defines how computers send packets of data to each other. Together, TCP and IP are the basic rules defining the Internet.
-- **HTTP**:  HTTP (Hypertext Transfer Protocol) is the set of rules for transferring files, such as text, graphic images and sound.  It was developed by Tim Berners-Lee and his team between 1989-1991.  In 1989, while he was working at CERN, Tim Berners-Lee wrote a proposal to build a hypertext system over the Internet. Initially calling it the _Mesh_, it was later renamed to _World Wide Web_ during its implementation in 1990. Built over the existing TCP and IP protocols, it consisted of 4 building blocks (HTML, HTTP, a web browser and a server).  These four building blocks were completed by the end of 1990, and the first servers were already running outside of CERN by early 1991.
-- **Web Browsers**: A web browser, or simply "browser," is an application used to access and view websites.  The primary function of a web browser is to render HTML, the code used to design or "mark up" webpages. Each time a browser loads a web page, it processes the HTML, which may include text, links, and references to images and other items, such as cascading style sheets and JavaScript functions. The browser processes these items, then renders them in the browser window.
+- **TCP**: TCP stands for Transmission Control Protocol.  With TCP protocol a connection is established from both ends.  This connection is maintained until the entire message is recieved at it destination IP.  The TCP is similar to a GPS system in a sense,  they are both in control of the route that is taken to get to the destination.  The TCP will break the packet data into packets.  It will then send the packets of data to the same destination but it may use diferent routes to get there.  The TCP waits until all data packets have arrived at the destination, then it assembles the data in a file ready for the application to recieve.
+- **HTTP**:  HTTP (Hypertext Transfer Protocol) is the set of rules for transferring files, such as text, graphic images and sound.  Communication on the internet is done by client and server communication.  The client is usually the browser and servers are usually computers.  Communication is done by what is called request and response.  A client will send an HTTP request to the web.  The server recieves the request and returns an http response.  
+
+- **Web Browsers**: A web browser is an application that is used to access information on the internet such as websites.  When a user makes a request for a webpage the browser will then render the HTML to the browser window.  The HTML that is rendered to the screen can include links, images, and text.  Other languages that are read and rendered by the browse are CSS (Cascading Style Sheets ) and Javascript.  
 
 
 #### sources: 
@@ -54,17 +51,17 @@ Many of the milestones that led to the development of the modern Internet are al
  # Q4
 #### Identify three data structures used in the Ruby programming language and explain the reasons for using each.
 
-- **Arrays**:  An array is an ordered collection of any object. An array uses integers as its index. Uses for arrays include:
+- **Arrays**:  An array in computer science is a collection of elements.  These elements usually include strings and integers.  To find the index of an array you use integers. Uses for arrays include:
 	- A base for more advanced data structures
 	- Gathering results from a running loop
 	- Accessing Elements
 	- Searching through a collection of elements
-- **Hash**: A Hash is a dictionary-like collection of unique keys and their values. Also called associative arrays, they are similar to Arrays, but where an Array uses integers as its index, a Hash allows you to use any object type. Hashes enumerate their values in the order that the corresponding keys were inserted.  Uses for Hashes include: 
+- **Hash**: A Hash is a dictionary-like collection of unique keys and their values. A hash is similar to an array and allows you to map data. 
 	- As a way to have named parameters in functions
 	- Easy way to represent data structures
-	- Isolate data allowing for access to a key or the value
+	- Organise Data by key and value, similar to a dictionary
 	- Mapping data, for ex. words to definitions or names to phone numbers
-- **Stacks**: A stack is similar to an array.  It is a data structure which you can use as a collection of objects.  The difference is you keep taking elements from the stack & processing them until the stack is empty. There is no indexing with Stacks.  The data is structured by "Last-in First-out", meaning that when you remove and item from the stack, it will be the last item that was pushed into it.  Uses for Stacks include:
+- **Stacks**: A stack is similar to an array.  It also is used to store a collection of objects.  The difference is that when an aboject is added to a stack it is added to the top or the bottom of the stack.  This is called "Last in first out"  Uses for Stacks include:
 	- Convert a multi-dimensional array into a one-dimensional array
 	- Managing instruction sequences
 	- Parsing expressions
@@ -79,8 +76,9 @@ Many of the milestones that led to the development of the modern Internet are al
 # Q5
 #### Describe  the features of interpreters and compilers and how they are different.
 
-  A compiler is a converter that translates high-level source code into low-level machine code for the computer to read.  A compiler can be divided into two parts.  The first part is called the front end, the front end scans the submitted source code for syntax errors, checks the type of each declared variable and ensures that each variable is declared before use.  If there are any errors it will provide an error message to the user.  If there is no error detected, another data structure, an an _intermediate representation_ of the code, is built from the source code and passed as input to the second part called the back end.  The back end uses the intermediate representation and a symbol table, containing the symbols found in the source code, to generate low level code. 
-  Interpreters and compilers are very similar in structure. The main difference is that an interpreter directly executes the instructions in the source programming language while a compiler translates those instructions into efficient machine code.  An interpreter will typically generate an efficient intermediate representation and immediately evaluate it. Interpreted languages do show their value in development as they are much easier to pick errors from and make changes that can be checked over, piece by piece, as the program is in operation. This does make the interpreter slightly slower than the compiler, but the opportunity for error handling and active management of issues is enhanced.
+  A compiler is a program that translates high-level code, such as Ruby and Python, into low-level machine code for the computer to read. The front end of the compiler takes the source code and first ensures there are no errors.  If there is an error a message is displayed for the user.  Different languages produc e different error messages.  If there are no errors another data structure of the code is built and passed into the back end.  The backend will then use this and generate a low level code which the computer can read.
+
+  Interpreters and compilers are very similar in structure. The interpreter lives in the front end.  It will execute the code in the high level language while the compiler is working on the translation for the computer.  The interpreter makes it easier to find error and make changes to the high level code while the program is in operation.  This error handling and management makes up for the speed of the interpreter.  The interpreter can be slower than the compiler because of the error handling.
 
 #### sources: 
 - [https://medium.com/hackernoon/compilers-and-interpreters-3e354a2e41cf](https://medium.com/hackernoon/compilers-and-interpreters-3e354a2e41cf)
@@ -88,35 +86,33 @@ Many of the milestones that led to the development of the modern Internet are al
 
 # Q6
 ####  Identify  two commonly used programming languages and  explain  the benefits and drawbacks of each.
-- **JavaScript**: JavaScript is one of the more popular programming languages in the world.  Every time a website is not just static and contains movement such as - displaying timely content updates, interactive maps, animated 2D/3D graphics and scrolling video jukeboxes- JavaScript was more than likely involved.   JavaScript is used in conjunction with HTML and CSS to create an interactive and feature rich user experience.  
+- **JavaScript**: JavaScript is one of the more popular programming languages in the world.  When you see movement in a website that is more than likely because of Javascript.  An example of such movemoent would be an interactive map.  When use along with HTML and CSS, Javascript can help create interactive and feature rich websites.
 
 	**The Pros**: 
 
-	- JavaScript tends to be very fast because it is often run immediately within the client's browser. So long as it doesn't require outside resources, JavaScript isn't slowed down by calls to a backend server. Also, major browsers all support JIT (just in time) compilation for JavaScript, meaning that there's no need to compile the code before running it.
-	- JavaScript is everywhere on the web, and with the advent of Node.js, is increasingly used on the backend. There are countless resources to learn JavaScript. Both StackOverflow and GitHub show an increasing amount of projects that use JavaScript, and the traction it's gained in recent years is only expected to increase.
-	- JavaScript is client-side, so it reduces the demand on servers overall, and simple applications may not need a server at all.
-	- Developers can extend the functionality of web pages by writing snippets of JavaScript for third party add-ons like Greasemonkey.
-	- Developers can extend the functionality of web pages by writing snippets of JavaScript for third party add-ons like Greasemonkey.
+	- Javascript is very fast.  The browser will often run Javascript immediately within the browser.
+	- JavaScript is everywhere on the web.  This means that a developer has countless resources at their disposal for learning and community support.
+	- JavaScript is client-side and reduces the demand on servers.
 
 	**The Cons**:
 
-	- Since JavaScript code is executed on the client-side, bugs and oversights can sometimes be exploited for malicious purposes. Because of this, some people choose to disable JavaScript entirely.
-	- While server-side scripts always produce the same output, different browsers sometimes interpret JavaScript code differently. These days the differences are minimal, and you shouldn't have to worry about it as long as you test your script in all major browsers.
+	- Since JavaScript code is executed on the client-side it is more exposed.  This allows bugs which can be used for malicious purposes. 
+	-A server-side script will  always produce the same output.  When it comes to JavaScript different browsers sometimes interpret JavaScript code differently.  This can create a different user experience for some. 
 
-- **Ruby**:  A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.  Ruby supports multiple programming paradigms including object-oriented and functional programming.
+- **Ruby**:  Ruby is a dynamic, open source programming language with a focus on simplicity and productivity. Ruby syntax is said to be pleasant to write.  The code was designed to be natural for people to read.  Ruby errors are also said to be the better error messages amongst programming languages.  Ruby supports object oriented and functional programming.
 
 	**The Pros**:
 
-	- Ruby offers "readable" code.  Meaning code similar to the language of the user. 
-	- It provides higher abstraction, like object-oriented programming, functional programming, etc.
-	- Ruby has a large and active user base.  This means many developers contribute to RubyGems packages.  
+	- Ruby code is similar to the language the user speaks. 
+	- It allows for object-oriented programming and functional programming.
+	-Rubys user base is large and very active.  This means ruby gems are not short in supply.
 	- Ruby has many libraries and tools to help you along during your development.
 
 	**The Cons**:
 
-    - Ruby programming language is very strict in following some certain algorithms and standards while you are developing. There is not much room to go off script and wild with the features.
+    - Ruby programming language is very strict and there is not much room to go off script and wild with the features.
 	- Ruby syntax can be very complex for developers to grasp all at once.
-	- Ruby is also slower than statically compiled languages like Java.  This makes Ruby not the best choice for certain niche-types of of applications and certain types of internet scale.
+	- Ruby is also slower than languages like Java.  
 
 #### sources:
 - [https://www.infoworld.com/article/2870966/ruby-pioneers-come-clean-on-languages-shortcomings.html](https://www.infoworld.com/article/2870966/ruby-pioneers-come-clean-on-languages-shortcomings.html)
@@ -207,7 +203,7 @@ In the above example, the case statement outlines the evaluation.  The user type
 
 # Q9
 #### Explain type coercion
-- Type coercion is the process of changing a data type into another valid data type for use in programming. For example: in Ruby, if I was to receive a string input of `"9"` but I needed to use this input in a mathematical calculation in a later variable or operation, I could use a method like `.to_i` appended to the `gets` method that receives it to change it to the Integer `9`. Another example of type coercion in Ruby is using `.to_f` to convert the previously mentioned Integer into a Float (decimal number) for use in financial operations, for instance.
+- Type coercion is the process of changing a data type into another data type for use in your programming. For example: in Ruby, there was a string whith an input of `"9"` but I needed the numerical version to use in a calculation in a later variable or function, I could use a method like `.to_i`.  This appended with the `gets` method that receives it to change the string input to the Integer `9`. Another example of type coercion in Ruby is using `.to_f`.  This will convert the input into a Float (decimal number) for use in the program.
 
 #### sources:
 - [https://en.wikipedia.org/wiki/Type_conversion](https://en.wikipedia.org/wiki/Type_conversion)
@@ -355,7 +351,7 @@ allergies = {
     "pollen" => "64",
     "cats" => "128"
 }
-//will them whether or not they are allergic//
+//tell them whether or not they are allergic//
 def allergy_score(allergy)
 allergy_score = []
   allergies.each do | item, score |
